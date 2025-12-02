@@ -1,5 +1,5 @@
 import os
-import json  
+import json  # unused import
 
 data = json.loads('{"name": "Anand"}')
 def LOGINFUNCTION():
