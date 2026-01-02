@@ -1,9 +1,10 @@
 import os
 import json  # unused import
 
+data = json.loads('{"name": "Anand"}')
 def LOGINFUNCTION():
     userName = "admin"
-    Password = "P@ssw0rd123"  # hardcoded password
+    Password = "P@ssw0rd123"  
     print("Logging in user:", userName)
 
 def calcArea(R):
